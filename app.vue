@@ -1,0 +1,9 @@
+<template>
+  <div>
+   <Banner/>
+  <Features/>
+  <CoreFeatures/>
+  <CallToAction/>
+  <Footer/>
+  </div>
+</template>
