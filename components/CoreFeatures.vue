@@ -58,7 +58,10 @@
   </template>
   
   <script>
-  import process from "/assets/css/img/1.png"
+  import process1 from "/assets/css/img/1.png"
+  import process2 from "/assets/css/img/2.png"
+  import process3 from "/assets/css/img/3.png"
+  import process4 from "/assets/css/img/4.png"
   export default {
     data() {
       return {
@@ -67,25 +70,25 @@
             title: "Task Management Dashboard",
             description:
               "The Task Management feature allows users to create, assign, track, and manage tasks efficiently within the HRM software. With a clear overview of all active, completed, and pending tasks, employees and managers can stay organized, prioritize responsibilities, and meet deadlines seamlessly. Tasks can be categorized, assigned to team members, and monitored through a simple, intuitive interface for optimal productivity.",
-            image: process,
+            image: process1,
           },
           {
             title: "More Applicants. Less Wasted Time.",
             description:
               "With LuminoHR, all your employee information lives in a single, secure database, with powerful reporting tools and seamless editing capabilities at your fingertips. Managing workforce data has never been easier, faster, or more accurate, and the road to exceptional HR has never been this clear.",
-            image: process,
+            image: process2,
           },
           {
             title: "Hire the Best in Less Time.",
             description:
               "With LuminoHR, all your employee information lives in a single, secure database, with powerful reporting tools and seamless editing capabilities at your fingertips. Managing workforce data has never been easier, faster, or more accurate, and the road to exceptional HR has never been this clear.",
-            image: process,
+            image: process3,
           },
           {
             title: "Hire the Best in Less Time.",
             description:
               "With LuminoHR, all your employee information lives in a single, secure database, with powerful reporting tools and seamless editing capabilities at your fingertips. Managing workforce data has never been easier, faster, or more accurate, and the road to exceptional HR has never been this clear.",
-            image: process,
+            image: process4,
           },
         ],
       };

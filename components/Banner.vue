@@ -10,7 +10,7 @@
           Find and hire the right talent, fast with the only hiring platform built for businesses like yours.
         </p>
         <button
-          class="bg-yellow-500 cursor-pointer relative  z-10 text-white font-semibold py-3 px-6 rounded-md shadow-md hover:bg-yellow-600 transition"
+          class="bg-yellow-500 cursor-pointer relative mb-6  z-10 text-white font-semibold py-3 px-6 rounded-md shadow-md hover:bg-yellow-600 transition"
         >
           Request A Demo
         </button>
@@ -18,18 +18,21 @@
   
       <div class="flex justify-center">
         <!-- Replace the image src with your own -->
-        <NuxtImg
-          src="/hr-Images.png"
+        <NuxtImg style="padding: 30px;
+    background: aliceblue;
+    border-radius: 20px;"
+          src="/dashboard.png"
           alt="Team"
           width="1000"
           height="400"
-          class="rounded-md"
+          class="rounded-md "
         />
       </div>
     </section>
   </template>
   
   <script setup>
+  
   // NuxtImg is available globally in Nuxt 3 if the image module is set up.
   </script>
   
