@@ -1,6 +1,6 @@
 <template>
-    <section :style="{ backgroundImage: `url(${image})` }"
-      class="relative  bg-cover bg-center bg-no-repeat h-screen flex items-center justify-center text-center"
+    <section :style="{ backgroundImage: `url(${image})`,height: '400px',  }"
+      class="relative gray-box   bg-cover bg-center bg-no-repeat h-screen flex items-center justify-center text-center"
     >
       <div class=" inset-0 bg-black bg-opacity-60"></div>
       <div class="relative z-10 max-w-2xl text-white">
@@ -19,7 +19,7 @@
   
   <script>
   // Correct image import using the path directly
-  import footer_bg from 'assets/css/img/Savoir.png';
+  import footer_bg from 'assets/css/img/Image.webp';
   
   export default {
     name: 'CallToAction',
@@ -32,6 +32,8 @@
   </script>
   
   <style scoped>
+  
+  
   /* Add any additional custom styles here */
   </style>
   

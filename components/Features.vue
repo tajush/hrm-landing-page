@@ -9,7 +9,7 @@ const features = ref([
   {
     id: 1,
     icon: users, // Use the image path here
-    title: 'Unlimited jobs & users.',
+    title: 'Lead Management',
     description:
       'Say goodbye to pay-per-user and limited channels. Enjoy unlimited access without extra fees or costs.',
     link: '#',
@@ -17,7 +17,7 @@ const features = ref([
   {
     id: 2,
     icon: rocket, // Use the image path here
-    title: 'Recruit better and Faster.',
+    title: 'Client Management',
     description:
       'Our platform simplifies the hiring process, saving you time and letting you focus on the human side of recruiting.',
     link: '#',
@@ -25,7 +25,7 @@ const features = ref([
   {
     id: 3,
     icon: data, // Use the image path here
-    title: 'People Data & Analytics.',
+    title: 'HR Management',
     description:
       'Our software empowers you to create customized solutions tailored to your hiring needs with powerful analytics.',
     link: '#',
