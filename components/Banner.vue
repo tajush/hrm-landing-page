@@ -10,7 +10,7 @@
           Find and hire the right talent, fast with the only hiring platform built for businesses like yours.
         </p>
         <button
-          class="bg-yellow-500 cursor-pointer relative mb-6  z-10 text-white font-semibold py-3 px-6 rounded-md shadow-md hover:bg-yellow-600 transition"
+          class="!bg-yellow-500 cursor-pointer relative mb-6  z-10 text-white font-semibold py-3 px-6 rounded-md shadow-md hover:bg-yellow-600 transition"
         >
           Request A Demo
         </button>
